@@ -1,15 +1,15 @@
-6.	## --- AL gitignore ---
-7.	## Ignores generated binary files and 
-8.	## temporary files from Visual Studio and Visual Studio code
-9.	
-10.	# Binary files
-11.	.alpackages/
-12.	*.app
-13.	
-14.	# Temp files
-15.	.vs/
-16.	.vscode/
-17.	
-18.	# Others
-19.	~$*
-20.	*~
+## --- AL gitignore ---
+## Ignores generated binary files and 
+## temporary files from Visual Studio and Visual Studio code
+	
+# Binary files
+.alpackages/
+*.app
+	
+# Temp files
+.vs/
+.vscode/
+	
+# Others
+~$*
+*~
