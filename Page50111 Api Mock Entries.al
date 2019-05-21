@@ -34,16 +34,20 @@ page 50111 "API Mock Entries"
     }
 
     actions
+
     {
         area(Processing)
         {
-            action(ActionName)
+            action(Push)
             {
                 ApplicationArea = All;
 
-                trigger OnAction();
+                trigger OnAction()
+                var
+                    lClientType: ClientType;
+                    lObiType: ObjectType;
                 begin
-
+                    Message(GetUrl(lClientType::Api, CompanyName, ObjectType::Page, 50110));
                 end;
             }
         }
