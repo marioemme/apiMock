@@ -1,18 +1,15 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+6.	## --- AL gitignore ---
+7.	## Ignores generated binary files and 
+8.	## temporary files from Visual Studio and Visual Studio code
+9.	
+10.	# Binary files
+11.	.alpackages/
+12.	*.app
+13.	
+14.	# Temp files
+15.	.vs/
+16.	.vscode/
+17.	
+18.	# Others
+19.	~$*
+20.	*~
