@@ -8,3 +8,5 @@ Questa app espone un servzio web che permette di leggere, inserire, modificare e
 * * {{apiPort}}: porta odata (tipicamente 7048)
 * * {{istance}}: istanza BC (esempio: BC140)
 * * {{company}}: Id della company di riferimenti. Invocare il servizio http://{{server}}:{{apiPort}}/{{istance}}/api/mario/demos/beta/companies per la lista completa.
+
+#Test Git
